@@ -1,0 +1,81 @@
+/* --ESTRUCTURA--
+h1 {
+    color: black;
+    border-style: solid;
+    border-color: greenyellow;
+}
+
+div,
+post-date {
+    color: black;
+    border: 1px;
+    border-style: solid;
+    border-color: red;
+}
+
+img {
+    border: 1px;
+    border-style: dashed;
+    border-color: blue;
+}
+
+p {
+    color: black;
+    border: 1px;
+    border-style: dashed;
+    border-color: blue;
+}
+*/
+
+body {
+    margin: 0;
+    background: whitesmoke;
+}
+
+div {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    background: white;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+div.feed {
+    width: 500px;
+    margin: auto;
+}
+
+div.post {
+    background: white;
+    padding-top: 5px;
+}
+
+div.post-title, 
+div.post p {
+    padding: 5px;
+}
+
+div.post-title {
+    width: 70%;
+    display: inline-block;
+}
+
+div.post-date {
+    width: 29%;
+    display: inline-block;
+    padding: 10px;
+    text-align: end;
+}
+
+div.post img {
+    width: 500px;
+    object-fit: fill;
+}
